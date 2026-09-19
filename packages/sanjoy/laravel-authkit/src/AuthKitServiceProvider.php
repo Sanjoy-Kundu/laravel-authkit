@@ -15,5 +15,8 @@ class AuthKitServiceProvider extends ServiceProvider
     {
         //web route load
       $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+
+      // Load Package Migrations
+        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
     }
 }
