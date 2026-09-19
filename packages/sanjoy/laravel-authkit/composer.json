@@ -1,0 +1,27 @@
+{
+    "name": "sanjoy/laravel-authkit",
+    "description": "Custom Auth, OTP, and Role-Based Dashboard Package for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sanjoy Kundu",
+            "email": "sanjoykundu187@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sanjoy\\AuthKit\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sanjoy\\AuthKit\\AuthKitServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2"
+    }
+}
