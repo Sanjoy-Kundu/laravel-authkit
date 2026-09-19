@@ -13,6 +13,7 @@ class AuthKitServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
-        //
+        //web route load
+      $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
     }
 }
